@@ -21,7 +21,7 @@ def now_serving(queue)
   if queue.length == 0
     puts "There is nobody waiting to be served!"
   else
-    puts "currently serving #{array.first}."
+    puts "currently serving #{queue.first}."
     array.shift()
   end
 end
