@@ -13,6 +13,6 @@ def take_a_number(queue, customer)
     puts "Welcome, #{customer}. You are number 1 in line."
   else
     queue.push(customer)
-    puts "Welcome, #{customer}. You are number #{array.length} in line."
+    puts "Welcome, #{customer}. You are number #{queue.length} in line."
   end
 end
