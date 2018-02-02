@@ -17,6 +17,6 @@ def take_a_number(queue, customer)
   end
 end
 
-def now_serving
+def now_serving(queue)
 
 end
