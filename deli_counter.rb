@@ -8,7 +8,7 @@ def line(queue)
 end
 
 def take_a_number(queue, customer)
-  if queue.length == 0 
+  if queue.length == 0
     queue << customer
   end
 end
