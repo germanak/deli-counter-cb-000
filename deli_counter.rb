@@ -11,5 +11,7 @@ def take_a_number(queue, customer)
   if queue.length == 0
     queue << customer
     puts "Welcome, #{customer}. You are number 1 in line."
+  else
+    queue.push(customer)
   end
 end
