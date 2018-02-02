@@ -18,5 +18,7 @@ def take_a_number(queue, customer)
 end
 
 def now_serving(queue)
-
+  if queue.length == 0
+    puts "There is nobody to be served!"
+  end
 end
