@@ -6,3 +6,7 @@ def line(queue)
     puts "The line is currently: " + queue.map.with_index{|customer, index| "#{index + 1}. #{customer}"}.join(' ')
   end
 end
+
+def take_a_number(queue, customer)
+
+end
